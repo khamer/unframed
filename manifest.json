@@ -1,14 +1,17 @@
 {
-	"name": "Workshopped - enhancements for Workshop.imarc.net for Google Chrome",
-	"version": "2.1",
+	"name": "Wireframed – reveal your DOM structure",
+	"version": "0.1",
 	"manifest_version": 2,
-	"description": "Uses jQuery and applies a number of UI tweaks to Workshop.imarc.net.",
+	"description": "Uses jQuery to reveal elements in your page's DOM.",
 	"content_scripts": [
 		{
-			"matches": [ "*://workshop.imarc.net/*" ],
+			"matches": [ "*://*/*" ],
 			"js": [
-				"jquery-1.8.3.js",
+				"jquery-1.9.0.js",
 				"app.js"
+			],
+			"css": [
+				"app.css"
 			]
 		}
 	]

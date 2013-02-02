@@ -22,3 +22,15 @@ body > div#wireframed {
 	body > div#wireframed:hover {
 		opacity: .8;
 	}
+
+div.wireframed-tag {
+	background: #779 !important;
+	position: absolute;
+	right: 0;
+	top: 0;
+	color: #fff !important;
+	padding: 1px 2px 2px;
+	line-height: 1;
+	font-size: 12px;
+	z-index: 99999;
+}

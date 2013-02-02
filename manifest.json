@@ -1,6 +1,6 @@
 {
-	"name": "Wireframed - reveal your DOM structure",
-	"version": "0.2",
+	"name": "Unframed - reveal your DOM structure",
+	"version": "1.0",
 	"manifest_version": 2,
 	"description": "Uses jQuery to reveal elements in your page's DOM.",
 	"content_scripts": [

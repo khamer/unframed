@@ -9535,7 +9535,7 @@ jQuery.each( { Height: "height", Width: "width" }, function( name, type ) {
 // })();
 // Expose jQuery to the global object
 // Edited to avoid conflicts
-window.wireframed = {
+window.unframed = {
 	jQuery: jQuery
 };
 
